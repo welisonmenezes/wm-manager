@@ -1,0 +1,244 @@
+/**
+ *
+ *  System grid based on Pure Framework
+ *
+ */
+.wmgrid-g {
+    letter-spacing: -0.31em; 
+    *letter-spacing: normal; 
+    *word-spacing: -0.43em; 
+    text-rendering: optimizespeed; 
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    display: -ms-flexbox;
+    -ms-flex-flow: row wrap;
+}
+
+.wmgrid-r{
+    margin-bottom: 20px;
+}
+
+.wmgrid {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+
+    padding: 0px 10px;
+    @include wm-box-sizing();
+}
+
+.wmgrid-1,
+.wmgrid-1-1,
+.wmgrid-1-2,
+.wmgrid-1-3,
+.wmgrid-2-3,
+.wmgrid-1-4,
+.wmgrid-3-4,
+.wmgrid-1-5,
+.wmgrid-2-5,
+.wmgrid-3-5,
+.wmgrid-4-5,
+.wmgrid-5-5,
+.wmgrid-1-6,
+.wmgrid-5-6,
+.wmgrid-1-8,
+.wmgrid-3-8,
+.wmgrid-5-8,
+.wmgrid-7-8,
+.wmgrid-1-12,
+.wmgrid-5-12,
+.wmgrid-7-12,
+.wmgrid-11-12,
+.wmgrid-1-24,
+.wmgrid-2-24,
+.wmgrid-3-24,
+.wmgrid-4-24,
+.wmgrid-5-24,
+.wmgrid-6-24,
+.wmgrid-7-24,
+.wmgrid-8-24,
+.wmgrid-9-24,
+.wmgrid-10-24,
+.wmgrid-11-24,
+.wmgrid-12-24,
+.wmgrid-13-24,
+.wmgrid-14-24,
+.wmgrid-15-24,
+.wmgrid-16-24,
+.wmgrid-17-24,
+.wmgrid-18-24,
+.wmgrid-19-24,
+.wmgrid-20-24,
+.wmgrid-21-24,
+.wmgrid-22-24,
+.wmgrid-23-24,
+.wmgrid-24-24 {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: top;
+    text-rendering: auto;
+}
+
+.wmgrid-1-24 {
+    width: 4.1667%;
+    *width: 4.1357%;
+}
+
+.wmgrid-1-12,
+.wmgrid-2-24 {
+    width: 8.3333%;
+    *width: 8.3023%;
+}
+
+.wmgrid-1-8,
+.wmgrid-3-24 {
+    width: 12.5000%;
+    *width: 12.4690%;
+}
+
+.wmgrid-1-6,
+.wmgrid-4-24 {
+    width: 16.6667%;
+    *width: 16.6357%;
+}
+
+.wmgrid-1-5 {
+    width: 20%;
+    *width: 19.9690%;
+}
+
+.wmgrid-5-24 {
+    width: 20.8333%;
+    *width: 20.8023%;
+}
+
+.wmgrid-1-4,
+.wmgrid-6-24 {
+    width: 25%;
+    *width: 24.9690%;
+}
+
+.wmgrid-7-24 {
+    width: 29.1667%;
+    *width: 29.1357%;
+}
+
+.wmgrid-1-3,
+.wmgrid-8-24 {
+    width: 33.3333%;
+    *width: 33.3023%;
+}
+
+.wmgrid-3-8,
+.wmgrid-9-24 {
+    width: 37.5000%;
+    *width: 37.4690%;
+}
+
+.wmgrid-2-5 {
+    width: 40%;
+    *width: 39.9690%;
+}
+
+.wmgrid-5-12,
+.wmgrid-10-24 {
+    width: 41.6667%;
+    *width: 41.6357%;
+}
+
+.wmgrid-11-24 {
+    width: 45.8333%;
+    *width: 45.8023%;
+}
+
+.wmgrid-1-2,
+.wmgrid-12-24 {
+    width: 50%;
+    *width: 49.9690%;
+}
+
+.wmgrid-13-24 {
+    width: 54.1667%;
+    *width: 54.1357%;
+}
+
+.wmgrid-7-12,
+.wmgrid-14-24 {
+    width: 58.3333%;
+    *width: 58.3023%;
+}
+
+.wmgrid-3-5 {
+    width: 60%;
+    *width: 59.9690%;
+}
+
+.wmgrid-5-8,
+.wmgrid-15-24 {
+    width: 62.5000%;
+    *width: 62.4690%;
+}
+
+.wmgrid-2-3,
+.wmgrid-16-24 {
+    width: 66.6667%;
+    *width: 66.6357%;
+}
+
+.wmgrid-17-24 {
+    width: 70.8333%;
+    *width: 70.8023%;
+}
+
+.wmgrid-3-4,
+.wmgrid-18-24 {
+    width: 75%;
+    *width: 74.9690%;
+}
+
+.wmgrid-19-24 {
+    width: 79.1667%;
+    *width: 79.1357%;
+}
+
+.wmgrid-4-5 {
+    width: 80%;
+    *width: 79.9690%;
+}
+
+.wmgrid-5-6,
+.wmgrid-20-24 {
+    width: 83.3333%;
+    *width: 83.3023%;
+}
+
+.wmgrid-7-8,
+.wmgrid-21-24 {
+    width: 87.5000%;
+    *width: 87.4690%;
+}
+
+.wmgrid-11-12,
+.wmgrid-22-24 {
+    width: 91.6667%;
+    *width: 91.6357%;
+}
+
+.wmgrid-23-24 {
+    width: 95.8333%;
+    *width: 95.8023%;
+}
+
+.wmgrid-1,
+.wmgrid-1-1,
+.wmgrid-5-5,
+.wmgrid-24-24 {
+    width: 100%;
+}

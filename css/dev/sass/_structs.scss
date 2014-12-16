@@ -1,0 +1,43 @@
+.stc-header{
+	border-bottom: 1px solid #cdcdcd;
+	height: 50px;
+	position: relative;
+	width: 100%;
+	z-index: 90;
+
+	@include wm-gradient(#f2f2f2, #dcdcdc);
+
+	@include wm-unselectable();
+
+	> div.wrap{
+		padding: 10px;
+	}
+}
+
+
+.stc-body{
+	position: relative;
+	width: 100%;
+}
+
+
+.stc-nav{
+	background: #575f5d;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 220px;
+	z-index: 2;
+
+	-webkit-box-shadow: inset -10px 0px 10px -5px rgba(50, 50, 50, 0.4);
+	-moz-box-shadow:    inset -10px 0px 10px -5px rgba(50, 50, 50, 0.4);
+	box-shadow:         inset -10px 0px 10px -5px rgba(50, 50, 50, 0.4);
+}
+
+.stc-main-wrap{
+	margin-left: 220px;
+}
+
+.stc-main{
+	padding: 30px 10px 50px 10px;
+}
