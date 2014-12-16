@@ -86,7 +86,7 @@
 					'min-height' : h + 'px'
 				});
 
-				console.log('cu');
+				//console.log('teste');
 			},
 			/**
 			 *	set auto width in main box content

@@ -13166,7 +13166,7 @@ Based on previous work of:
 					'min-height' : h + 'px'
 				});
 
-				console.log('cu');
+				//console.log('teste');
 			},
 			/**
 			 *	set auto width in main box content
