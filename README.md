@@ -9,4 +9,4 @@ O template WM Manager é um template em constante construção. A medida que as 
 
 Você poderá encontrar um exemplo prático no link q se segue: 
 
-[Exemplo do WM Manager](http://welisonmenezes.com.br/works/templates/wm-manager/)
+[Exemplo do WM Manager](http://welisonmenezes.com.br/extras/templates/wm-manager/)
